@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Ejemplo de uso de transiciones en CSS */
+.mi-elemento {
+    transition: background-color 3s ease-in-out;
+  }
+  
+body {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+#vuelve{
+    margin-top: 5px; /* Espacio entre la imagen y el botón */
+    padding: 10px 20px;
+    background-color: #3fa2c0; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    display: flex;
+}
+
+.content-left {
+    flex: 1;
+    padding: 40px;
+}
+
+.content-right {
+    flex: 1;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.content-left h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content-left p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.content-right {
+    flex: 1;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+#vuelve {
+    padding: 10px 20px;
+    background-color: #3fa2c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

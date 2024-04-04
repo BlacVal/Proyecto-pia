@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-size: cover;
+        background-color: #c9d6ff;
+}
+/* Ejemplo de uso de transiciones en CSS */
+.mi-elemento {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+.contenedor {
+    background-color: rgb(228, 215, 215)6a6;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    max-width: 100%;
+    min-height: 1000px;
+    display: flex;
+}
+#logo-imagen {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 80px;
+    transform: translate(-70%, 0);
+}
+#username{
+    width: 500px;
+    height: 30px;
+    border: 2px solid #4344a0;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #6075ec;
+    color: white;
+}
+#h1 {
+    width: auto;
+    height: 60px;
+    padding: 20px;
+    margin: 20px;
+   color: #000000;
+}
+#libro{
+    width: 500px;
+    height: 30px;
+    border: 2px solid #4344a0;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #6075ec;
+    color: white;
+}
+#country{
+    width: 500px;
+    height: 30px;
+    border: 2px solid #4344a0;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #6075ec;
+    color: white;
+}
+#elija-tiempo{
+    width: 500px;
+    height: 30px;
+    border: 2px solid #4344a0;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #6075ec;
+    color: white;  
+}
+p{
+    margin: 0;
+    padding: 20px 0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#no-aplica{
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #4d77ff, #8ca1ff);
+}
+#marca-agua{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #888;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #4344a0, #6075ec);
+}
+.p-boton{
+    margin: 15px 0;
+    color: #000000;
+    width: auto;
+    height: 70px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #325c9b;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .boton {
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: #3fa2c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background-color: #95a5ff;
+  }
+  h2 {
+    text-align: center;
+}

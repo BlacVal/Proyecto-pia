@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* Ejemplo de uso de transiciones en CSS */
+.mi-elemento {
+  transition: background-color 0.3s ease-in-out;
+}
+
+body{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-size: cover;
+        background-color: #c9d6ff;
+}
+#boton{
+  margin-top: 5px; /* Espacio entre la imagen y el botón */
+    padding: 10px 20px;
+    background-color: #3fa2c0; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#logo-imagen{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
+    height: 500px;
+    max-width: 900px;
+    transition: all 1s ease;
+    margin: 10px;
+
+}
+.info-childs{
+    width: 100%;
+    padding: 0 30px ;
+    font-size: 18px;
+  margin-bottom: 10px;
+}
+.info-childs h2{
+    font-size: 2.5rem;
+    width: auto;
+    height: 90px;
+    border: 20px solid #3b77bb;
+    padding: 20px;
+    margin: 20px;
+    background-color: #3372d1;
+    border-radius: 20px;
+}
+.info-childs p{
+    margin: 15px 0;
+    color: #000000;
+    width: auto;
+    height: 150px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #325c9b;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.info-childs input   [type="text"] {
+        background-color: transparent;
+        outline: none;
+        border: solid 2px #9191bd;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #9191bd;
+        cursor: pointer;
+        transition: background-color .3s ease;
+        width: 100%; 
+        padding: 10px; 
+        font-size: 16px; 
+      }
+
+.info-childs input:hover{
+    background-color: 9191bd;
+    border: none;
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .p-boton{
+    margin: 20px 0px;
+    color: #000000;
+    width: auto;
+    height: 80px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #325c9b;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .boton {
+    margin-top: 5px; /* Espacio entre la imagen y el botón */
+    padding: 10px 20px;
+    background-color: #3fa2c0; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background-color: #243bbd; /* Cambia el color de fondo del botón al pasar el mouse sobre él */
+  }
+  #marca-agua{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #000000;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #4d77ff, #8ca1ff);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+  
